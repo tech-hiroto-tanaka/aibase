@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.529" height="20" viewBox="0 0 15.529 20">
+  <g id="Group_2048" data-name="Group 2048" transform="translate(-2293 -4438)">
+    <path id="Path_2492" data-name="Path 2492" d="M5.226,12.663,1.752,10.29h8.882V8.934H0V26.561H1.752l3.474,2.373V26.561H9.463V25.205H5.226Z" transform="translate(2293 4429.066)" fill="#0068b5"/>
+    <g id="Group_844" data-name="Group 844" transform="translate(2301.094 4446.2)">
+      <line id="Line_34" data-name="Line 34" x2="6.728" transform="translate(0 1.806)" fill="none" stroke="#0068b5" stroke-width="1"/>
+      <path id="Path_2493" data-name="Path 2493" d="M0,1.82,1.82,0,3.64,1.82" transform="translate(6.728 0) rotate(90)" fill="none" stroke="#0068b5" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

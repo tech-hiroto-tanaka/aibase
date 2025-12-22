@@ -1,0 +1,219 @@
+.application-page {
+    &.application-complete {
+        .content-title {
+            padding-left: 35px;
+            @include mq-xs() {
+                padding-left: 0;
+            }
+        }
+        .application-container {
+            padding: 85px 15px 137px;
+            @include mq-xs() {
+                padding: 40px 15px 90px;
+            }
+            @include mq-xl() {
+                padding: 85px 0 174px;
+            }
+            .app-complete-btn {
+                margin-top: 121px;
+            }
+            .btn-goto-home {
+                border: 1px solid #1a1a1a;
+                .ic-arrow-right {
+                    margin-left: 9px;
+                }
+            }
+        }
+    }
+    .application-container {
+        max-width: 1004px;
+        padding: 85px 15px 174px;
+        @include mq-xs() {
+            padding: 40px 34px 90px;
+        }
+        @include mq-xl() {
+            padding: 85px 0 174px;
+        }
+        .btn-app {
+            height: 46px;
+            width: 199px;
+            border-radius: 0;
+            @include mq-xs() {
+                flex: 0 0 159px !important;
+            }
+            .ic-txt {
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 20px;
+            }
+        }
+        .form-btn {
+            width: 199px;
+            @include mq-xs() {
+                flex: 0 0 159px !important;
+            }
+        }
+        .content-title {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+            color: #1A1A1A;
+        }
+        .header-title {
+            .application-title {
+                font-size: 30px;
+                line-height: 30px;
+                color: #1A1A1A;
+                padding-bottom: 20px;
+                position: relative;
+                font-weight: 700;
+                @include mq-xs() {
+                    line-height: 40px;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #707070;
+                    bottom: 0;
+                    left: 0;
+                }
+                &:before {
+                    content: "";
+                    width: 85px;
+                    height: 5px;
+                    background-color: #0068B5;
+                    position: absolute;
+                    left: 0;
+                    bottom: -2px;
+                }
+            }
+        }
+        .application-content {
+            margin-top: 54px;
+            @include mq-xs() {
+                margin-top: 3px;
+            }
+            .application-left {
+                @include mq-sm() {
+                    width: 40%;
+                }
+                @include mq-md() {
+                    width: 304px;
+                }
+                @include mq-xs() {
+                    width: 100%;
+                }
+                .app-subtitle {
+                    margin-top: 55px;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #1A1A1A;
+                    @include mq-xs() {
+                        margin-top: 34px;
+                    }
+                }
+                .app-price {
+                    font-size: 30px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    color: #C92D27;
+                    @include mq-xs() {
+                        margin-bottom: 0;
+                        height: 40px;
+                    }
+                }
+                .btn-add-favorite {
+                    height: 42px;
+                    padding: 0 47px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    border: 1px solid transparent;
+                    border-radius: 0;
+                    outline: none;
+                    margin-top: 21px;
+                    background-color: #E49B26;
+                    @include mq-xs() {
+                        font-weight: 700;
+                    }
+                }
+            }
+            .application-right {
+                width: 100%;
+                @include mq-sm() {
+                    width: 60%;
+                }
+                @include mq-md() {
+                    width: calc(100% - 304px);
+                    padding: 15px 0 0 45px;
+                }
+                @include mq-xl() {
+                    padding: 15px 0 0 91px;
+                }
+                @include mq-xs() {
+                    margin-top: 53px;
+                }
+                .application-btn {
+                    margin-top: 81px;
+                    @include mq-xs() {
+                        margin-top: 108px;
+                    }
+                    .btn-back {
+                        min-width: 97px;
+                        border: 1px solid #1a1a1a;
+                        margin-right: 8px;
+                        .ic-txt {
+                            margin-left: 15.5px;
+                            color: #000000;
+                        }
+                    }
+                    .btn-goto-application {
+                        @include mq-xs() {
+                            max-width: 234px;
+                        }
+                        max-width: 199px;
+                        min-width: 89px;
+                        background-color: #0068B5;
+                        border: 1px solid #0068B5;
+                        .ic-txt {
+                            color: #fff;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.application-table {
+    .application-row {
+        padding: 17px 0;
+        border-bottom: 1px solid #D3D3D3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include mq-xs() {
+            align-items: flex-start;
+        }
+        &:last-child {
+            border-bottom: 0;
+        }
+        span {
+            display: inline-block;
+            font-size: 15px;
+            line-height: 30px;
+            color: #1A1A1A;
+            &:first-child {
+                max-width: 112px;
+            }
+            &:last-child {
+                width: calc(100% -  194px);
+                @include mq-xs() {
+                    width: calc(100% - 140px);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.page-company-contact {
+    .col-c-8 {
+        width: 57.02%;
+        @media screen and (max-width: 768px) {
+            width: 66.66666667%;
+        }
+    }
+    .form-label {
+        @include mq-xs() {
+            padding-right: 15px;
+        }
+    }
+    .col-6 {
+        &:first-child {
+            padding-right: 6px;
+        }
+        &:last-child {
+            padding-left: 6px;
+        }
+    }
+    margin-bottom: 100px;
+    margin-top: 50px;
+    @include mq-xs() {
+        padding: 0 9px;
+    }
+    .custom-radio {
+        input {
+            top: 6px;
+        }
+    }
+    hr {
+        background-color: #D3D3D3;
+        width: 88%;
+        @include mq-xs() {
+            width: 90%;
+        }
+    }
+    span.required {
+        background: #FD3434;
+        color: #fff;
+        padding: 3px 7px;
+        font-size: 10px;
+        border-radius: 5px;
+        word-break: keep-all;
+        max-height: 24px;
+        line-height: 14px;
+    }
+    .card-form {
+        @media screen and (max-width: 768px) {
+            padding: 0;
+        }
+    }
+    span.required.bg-black {
+        background-color: #000000;
+    }
+    input.form-control {
+        background-color: #F7F7F7;
+        padding: 0.575rem;
+        border: none;
+        margin-bottom: 3px;
+        height: 45px;
+    }
+    .lbl-field {
+        font-weight: normal;
+        color: #1A1A1A;
+        font-size: 15px;
+        line-height: 20px;
+        padding-right: 0;
+        @include mq-xs() {
+            font-size: 13px;
+            max-width: 120px;
+        }
+    }
+    textarea {
+        height: 155px;
+        border: none;
+        background: #f7f7f7;
+    }
+    .btn-cc-submit {
+        border: 1px solid #1A1A1A;
+        padding: 10px 25px;
+        border-radius: 0;
+    }
+     ::placeholder {
+        color: #B2B2B2;
+        opacity: 1;
+        font-size: 15px;
+    }
+     :-ms-input-placeholder {
+        color: #B2B2B2;
+    }
+     ::-ms-input-placeholder {
+        color: #B2B2B2;
+    }
+    span.error {
+        font-size: 12px;
+        position: absolute;
+        @media screen and (max-width: 768px) {
+            font-size: 10px;
+        }
+    }
+    .title-company-contact {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 66px;
+        @include mq-xs() {
+            text-align: left;
+            padding: 0 33px;
+        }
+    }
+    .note-address {
+        line-height: 27.5px;
+    }
+    input {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    input[name="contact_email"]::-webkit-input-placeholder,
+    input[name="contact_email_confirm"]::-webkit-input-placeholder,
+    input[name="contact_phone_number"]::-webkit-input-placeholder,
+    textarea[name="contact_content"]::-webkit-input-placeholder {
+        line-height: 21px;
+    }
+    input[name="contact_email"],
+    input[name="contact_email_confirm"],
+    input[name="contact_phone_number"],
+    textarea[name="contact_content"] {
+        line-height: 21px;
+    }
+    textarea[name="contact_content"] {
+        font-size: 15px;
+    }
+    .btn-form-submit {
+        background: #98bcd7;
+        color: #fff;
+        margin-top: 100px;
+        font-weight: 700;
+        span {
+            margin-right: 5px;
+        }
+    }
+    button.active {
+        background: #0068B5;
+        color: #fff;
+        margin-top: 100px;
+        font-weight: 700;
+        span {
+            margin-right: 5px;
+        }
+    }
+}

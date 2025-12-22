@@ -1,0 +1,84 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+.c-app {
+  .title-fgpw{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  .title-fg-pw-cpl{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  .page-login {
+    position: relative;
+    z-index: 1;
+  }
+  .w-login{
+    width: 688px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .w-input{
+    width: 518px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .form-login {
+    border-radius: 0.6rem;
+    .form-control {
+      padding: 0.594rem 0.75rem;
+      width: 494px;
+      background: #F7F7F7;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .btn-login {
+      border-radius: 0;
+      width: 199px;
+      height: 46px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+    .text-register {
+      text-decoration: underline;
+    }
+    .text-register, label {
+      color: #1A1A1A;
+      line-height: 20px;
+    }
+  }
+  .card-login {
+    padding: 50px 30px 20px 30px;
+  }
+  .logo-login img {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 30px;
+  }
+  .background-over {
+    background-image: url('/images/background-login.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+      background: #0068B5;
+      opacity: 0.80;
+    }
+  }
+}

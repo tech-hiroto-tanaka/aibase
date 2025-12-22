@@ -1,0 +1,50 @@
+.container {
+    .page-contact-success {
+        margin-top: 120px;
+        position: relative;
+        z-index: 1;
+        .page-contact-modal {
+            width: 97%;
+            height: 491px;
+            margin: 0px auto;
+            .contact-complete-modal {
+                width: 97%;
+                height: 491px;
+            }
+        }
+        @include mq-xs() {
+            .page-contact-modal {
+                width: 97%;
+                height: 491px;
+                margin: 0px auto;
+                font-size: 16px;
+                .contact-complete-modal {
+                    width: 97%;
+                    height: 491px;
+                }
+            }
+        }
+        @include mq-md() {
+            .page-contact-modal {
+                width: 640px;
+                height: 491px;
+                margin: 0px auto;
+                .contact-complete-modal {
+                    width: 640px;
+                    height: 491px;
+                }
+            }
+        }
+        @include mq-xl() {
+            .page-contact-modal {
+                width: 664px;
+                height: 491px;
+                margin: 0px auto;
+                .contact-complete-modal {
+                    width: 664px;
+                    height: 491px;
+                }
+            }
+        }
+    }
+}

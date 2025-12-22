@@ -1,0 +1,50 @@
+.page-terms {
+    padding: 85px 0 100px;
+    @include mq-xs() {
+        padding: 50px 20px 60px;
+    }
+    .text-align-justify {
+        text-align: justify;
+    }
+    .page-title {
+        margin-bottom: 70px;
+    }
+    .page-desc {
+        margin: 0 auto;
+        max-width: 665px;
+        // font-size: 15px;
+        // line-height: 20px;
+        color: #505050;
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: "メイリオ", Meiryo, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+        -webkit-text-size-adjust: none;
+        hr.line {
+            border-style: dotted;
+            border-width: 0 0 1px;
+            border-color: #ccc;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        ul {
+          padding-left: .5rem !important;
+        }
+        ul li {
+            list-style: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-box {
+            margin-top: 20px;
+            .box {
+                padding: 20px;
+                border-left: 1px solid #dcdcdc;
+                border-right: 1px solid #DCDCDC;
+                text-align: center;
+                background: #fafafa;
+                border-top: 1px solid #dcdcdc;
+                border-bottom: 1px solid #dcdcdc;
+            }
+        }
+    }
+}

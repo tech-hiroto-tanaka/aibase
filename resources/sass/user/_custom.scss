@@ -1,0 +1,265 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  &:hover {
+    color: #000;
+  }
+}
+.btn-primary {
+  background: #0068B5;
+  border-color: #0068B5;
+}
+.btn-primary:hover {
+  background: #0068B5;
+  border-color: #0068B5;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.lh-24{
+  line-height: 24px;
+}
+.lh-22{
+  line-height: 22px;
+}
+.lh27-5{
+  line-height: 27.5px;
+}
+.lh-30{
+  line-height: 30px;
+}
+.font-weight-normal {
+  font-weight: normal;
+}
+@include mq-xs() {
+  .main-content {
+    margin-top: 94px;
+  }
+}
+.swal2-styled.swal2-confirm {
+  background-color: #2778c4 !important;
+}
+.swal2-title {
+  font-size: 20px !important;
+  line-height: 23px;
+}
+.carousel__slide {
+  .favorite-card {
+    width: 100% !important;
+    height: 100%;
+  }
+}
+.justify-content-end {
+  justify-content: end !important;
+  .ele-logout {
+    margin-right: 10px;
+  }
+}
+.page-title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-form-submit {
+  font-size: 15px;
+  line-height: 20px;
+  width: 199px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #1A1A1A;
+  background-color: #fff;
+  font-weight: 700;
+}
+.top-job-slider {
+  margin-bottom: 20px;
+  .carousel {
+    .carousel__slide {
+      align-items: flex-start;
+    }
+  }
+}
+.job-slider-container {
+  .job-slider-item {
+    .favorite-card {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .splide__arrow {
+    background-color: #0068B5;
+  }
+  .splide__arrow--prev {
+    @include mq-sm() {
+      left: -20px;
+    }
+    @include mq-md() {
+      left: -41px;
+    }
+    @include mq-xs() {
+      left: -15px;
+    }
+  }
+  .splide__arrow--next {
+    @include mq-sm() {
+      right: -20px;
+    }
+    @include mq-md() {
+      right: -41px;
+    }
+    @include mq-xs() {
+      right: -15px;
+    }
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.break-all {
+  word-break: break-all;
+}
+.total-job-search {
+  display: flex;
+  justify-content: center;
+}
+.show-loaded {
+  display: none;
+}
+
+.page-item{
+  cursor: pointer;
+  .page-link{
+    color: #1A1A1A;
+    border: unset;
+    &:hover{
+      background: unset;
+    }
+  }
+  &.active{
+    cursor: unset;
+    .page-link{
+      color: #1A1A1A;
+      background-color: unset;
+      border: unset;
+      text-decoration: underline;
+    }
+  }
+}
+
+.ml-1{
+  margin-left: 1rem;
+}
+
+.mr-4{
+  margin-right: 4rem;
+}
+
+.line-1{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.nl2br {
+  br:first-child {
+    display: none;
+  }
+}
+
+.card{
+  border: unset;
+}
+
+.lh-20{
+  line-height: 20px;
+}
+.lh-15{
+  line-height: 15px;
+}
+
+.form-control{
+  line-height: 21px;
+}
+textarea.form-control{
+  line-height: 27.5px;
+}
+
+.badge-style {
+  border-radius: 20px;
+}
+.unread td {
+  font-weight: bold;
+}
+.event-link:not([disabled]) {
+   &:hover {
+     opacity: 0.6;
+     span, > label, .txt-user-link {
+       opacity: 0.6;
+     }
+   }
+}
+.word-break {
+  word-break: break-all;
+}
+
+.job-detail-tag {
+  .content-title {
+    margin-bottom: 14px !important;
+  }
+  .tag-list {
+    margin-bottom: 30px;
+    padding: 0 !important;
+    flex-wrap: wrap;
+  }
+}
+.feature-content {
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 15px;
+  &.tag-content-container {
+    margin-top: 0;
+  }
+  .feature-tag-list {
+    margin-bottom: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    .tag-item {
+      border: 1px solid #E7A50F;
+      color: #E7A50F;
+      background-color: #F7F7F7;
+      &:first-child {
+        // padding-left: 0px;
+      }
+    }
+  }
+}
+.txt-price {
+  color: #C92D27 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+.txt-area {
+  font-size: 15px;
+  font-weight: bold;
+  color: #1A1A1A !important;
+}
+.m-t-32 {
+  @include mq-xs() {
+    margin-top: 32px !important;
+  }
+}

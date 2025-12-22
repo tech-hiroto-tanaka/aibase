@@ -1,0 +1,199 @@
+.favorite-content {
+    .favorite-container {
+        max-width: 1020px;
+        margin: 0 auto;
+        padding: 85px 0 102px;
+        @include mq-xs() {
+            padding: 47px 0 50px;
+        }
+        .title {
+            font-size: 30px;
+            line-height: 40px;
+            color: #1a1a1a;
+            font-weight: bold;
+        }
+        .paginate {
+            display: flex;
+            justify-content: center;
+            margin-top: 82px;
+            @include mq-xs() {
+                margin-top: 36px;
+            }
+            a {
+                font-size: 15px;
+                line-height: 40px;
+                color: #1a1a1a;
+                display: inline-block;
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.current {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include mq-lg() {
+        justify-content: start;
+    }
+    @include mq-xs() {
+        margin-top: 32px;
+    }
+    margin-top: 52px;
+}
+
+.favorite-card {
+    width: 50%;
+    @include mq-lg() {
+        width: 340px;
+    }
+    @include mq-xs() {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+    padding: 0 7px;
+    margin-bottom: 40px;
+    .favorite-card-container {
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: #f7f7f7;
+        border: 1px solid #f1e5c9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .favorite-card-wrapper {
+            height: 100%;
+        }
+        .favorite-card-header {
+            text-align: left;
+            background-color: #e7a50f;
+            color: #fff;
+            min-height: 66px;
+            padding: 15px;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+        .favorite-card-body {
+            padding: 21px 15px 0;
+            text-align: left;
+            height: calc(100% - 136px);
+            .content-item {
+                span {
+                    font-size: 13px;
+                    line-height: 40px;
+                    color: #1a1a1a;
+                    &.txt-price {
+                        font-size: 20px;
+                    }
+                    &.txt-area {
+                        font-size: 15px;
+                    }
+                    &.txt-content {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                    &.txt-skill {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+        .favorite-card-footer {
+            padding: 0 15px;
+            height: 76px;
+            .btn-add-bookmark {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+            }
+            .btn-view-favorite {
+                height: 46px;
+                width: 199px;
+                border: 1px solid #1a1a1a;
+                border-radius: 0;
+                justify-content: center;
+                @media screen and (max-width: 360px) {
+                    width: 150px;
+                }
+                .ic-txt {
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #1a1a1a;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+.favorite-card-search {
+    @include mq-lg() {
+        width: calc(100% / 2);
+    }
+}
+.favorite-modal {
+    .modal-content {
+        border-radius: 20px;
+        overflow: hidden;
+        .modal-header {
+            background-color: #0068B5;
+            color: #fff;
+            padding: 42px;
+            .modal-title {
+                font-size: 25px;
+                line-height: 30px;
+                font-weight: bold;
+                margin-bottom: 17px;
+            }
+            .modal-sub-title {
+                font-size: 15px;
+                line-height: 30px;
+            }
+        }
+        .modal-body {
+            padding: 16px 0 31px;
+            .favorite-body {
+                .body-left {
+                    border-right: 1px solid #0068B5;
+                }
+                .card-content {
+                    padding: 55px 0 36px;
+                    .modal-content-title {
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-bottom: 60px;
+                    }
+                    .modal-btn {
+                        height: 46px;
+                        padding: 0 60px;
+                        background-color: #0068B5;
+                        outline: none;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 0;
+                        .btn-txt {
+                            font-size: 15px;
+                            color: #fff;
+                            font-weight: bold;
+                            margin-right: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

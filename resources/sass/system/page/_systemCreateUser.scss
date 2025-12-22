@@ -1,0 +1,24 @@
+.system-create-user {
+    .others {
+        padding: 50px;
+        background-color: #F7F7F7;
+        margin: 20px 50px;
+    }
+    .card-body {
+        p {
+            color: var(--cui-input-placeholder-color, #8a93a2);
+            opacity: 1;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+        span.area-item {
+            width: auto;
+            margin-right: 20px;
+            display: inline-block;
+        }
+    }
+}
+
+.w-70 {
+    width: 70%;
+}

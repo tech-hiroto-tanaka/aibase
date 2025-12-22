@@ -1,0 +1,186 @@
+.option-skills {
+    .text {
+        line-height: 27.5px;
+        font-size: 15px;
+    }
+    .icon-plus {
+        background: url(/images/plus-tab.svg);
+        min-width: 32px;
+        height: 16px;
+        margin-top: 7px;
+        background-repeat: no-repeat, repeat;
+        &.active {
+            background: url(/images/close-tab.svg);
+            width: 20px;
+            height: 16px;
+            background-repeat: no-repeat, repeat;
+        }
+    }
+}
+
+.p-profile {
+    @media (min-width: 576px) {
+        .col-c-sm-8 {
+            width: 68.922%;
+        }
+    }
+    .card-register {
+        padding: 40px 21.25px;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .option-skills {
+        .icon-plus {
+            width: 21px;
+            &.active {
+                width: 21px;
+            }
+        }
+    }
+    .formRegister {
+        hr {
+            width: 93%;
+        }
+    }
+    .card {
+        border: unset;
+    }
+    .btn-update-profile {
+        color: #1A1A1A;
+        border: 1px solid #1A1A1A;
+    }
+    .formRegister {
+        .bg-list-option {
+            width: 93%;
+            margin: auto;
+            background: #F7F7F7;
+            .desired-work-radio {
+                .form-group {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+    input[type="radio"]:checked,
+    input[type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    input[type="radio"]:checked+label,
+    input[type="radio"]:not(:checked)+label {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+    input[type="radio"]:checked+label:before,
+    input[type="radio"]:not(:checked)+label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ddd;
+        border-radius: 100%;
+        background: #fff;
+    }
+    input[type="radio"]:checked+label:after,
+    input[type="radio"]:not(:checked)+label:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: #321fdb;
+        position: absolute;
+        top: 5px;
+        left: 3px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    input[type="radio"]:not(:checked)+label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    input[type="radio"]:checked+label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    textarea[name="other_requests"] {
+        font-size: 15px;
+    }
+    textarea[name="other_requests"]::-webkit-input-placeholder {
+        font-size: 15px;
+        line-height: 27.5px;
+    }
+    input[name="email"]::-webkit-input-placeholder,
+    input[name="phone_number"]::-webkit-input-placeholder,
+    input[name="experience_skills_year"]::-webkit-input-placeholder,
+    input[name="experience_skills_month"]::-webkit-input-placeholder,
+    input[name="experience_skills_day"]::-webkit-input-placeholder,
+    input[name="nearest_station_name"]::-webkit-input-placeholder {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    input[name="email"],
+    input[name="phone_number"],
+    input[name="experience_skills_year"],
+    input[name="experience_skills_month"],
+    input[name="experience_skills_day"] {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    input[name="nearest_station_name"] {
+        font-size: 15px;
+        line-height: 21px !important;
+    }
+    input[name="year"],
+    input[name="experience_skills_year"] {
+        width: 66px;
+        height: 45px;
+    }
+    input[name="month"],
+    input[name="experience_skills_month"] {
+        width: 48px;
+        height: 45px;
+    }
+    input[name="day"],
+    input[name="experience_skills_day"] {
+        width: 48px;
+        height: 45px;
+    }
+    input[name="year"],
+    input[name="month"],
+    input[name="day"],
+    input[name="experience_skills_year"],
+    input[name="experience_skills_month"],
+    input[name="experience_skills_day"] {
+        text-align: center;
+    }
+    textarea[name="experience_skills_detail"] {
+        font-size: 15px;
+        line-height: 21px;
+    }
+}
+
+.lh-27-5 {
+    line-height: 27.5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .p-profile {
+        .card-register {
+            padding: 40px 5px;
+        }
+        .bg-list-option {
+            width: 92% !important;
+        }
+    }
+}
