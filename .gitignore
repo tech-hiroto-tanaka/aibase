@@ -1,8 +1,5 @@
 /node_modules
 /public/hot
-/public/css/*
-/public/js/*
-/public/mix-manifest.json
 /public/storage
 /public/csv_file/user/*
 /storage/*.key
