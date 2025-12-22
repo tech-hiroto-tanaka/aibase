@@ -1,7 +1,7 @@
 ———————————————————————<br>
-サービス名：ATSUMARE<br>
-URL：https://atsumare-freelance.jp<br>
-メールアドレス：info@atsumare-freelance.jp<br><br>
+サービス名：AIBASE<br>
+URL：https://tec-aibase.com<br>
+メールアドレス：info@tec-aibase.com<br><br>
 
 【運営元：株式会社テックエデュケイションカンパニー】<br>
 住所：大阪本社<br>

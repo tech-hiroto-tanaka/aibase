@@ -1,7 +1,7 @@
 {{ $data['company_name'] }} <br>
 {{ $data['contact_hira_first_name'] }} {{ $data['contact_hira_last_name']}}様 <br><br>
 
-ATSUMAREエントリー担当です。<br>
+AIBASEエントリー担当です。<br>
 この度は、お申し込みいただき、誠にありがとうございます。<br><br>
 
 以下に今回お申し込みいただいた内容を記載致します。<br>
@@ -22,9 +22,9 @@ ATSUMAREエントリー担当です。<br>
 何卒よろしくお願いいたします。<br><br>
 
 ———————————————————————<br>
-サービス名：ATSUMARE <br>
-URL：https://atsumare-freelance.jp <br>
-メールアドレス：info@atsumare-freelance.jp <br><br>
+サービス名：AIBASE <br>
+URL：https://tec-aibase.com <br>
+メールアドレス：info@tec-aibase.com <br><br>
 
 【運営元：株式会社テックエデュケイションカンパニー】 <br>
 住所：大阪本社<br>

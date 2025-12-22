@@ -29,7 +29,7 @@ class VerifySuccess extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】 ID 登録完了のお知らせ')
+        return $this->subject('【AIBASE】 ID 登録完了のお知らせ')
             ->view('mails.verifySuccess')
             ->with([
                 'data' => $this->mailData

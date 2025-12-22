@@ -35,7 +35,7 @@
                  </div>
                  <div class="col-md-6">
                     <div class="copyright text-center text-sm-end">
-                        Copyright © {{ now()->year }} ATSUMARE  All Rights Reserved.
+                        Copyright © {{ now()->year }} AIBASE  All Rights Reserved.
                     </div>
                  </div>
              </div>

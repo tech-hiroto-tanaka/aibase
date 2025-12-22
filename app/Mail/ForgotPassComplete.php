@@ -29,7 +29,7 @@ class ForgotPassComplete extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】パスワード変更完了のお知らせ')
+        return $this->subject('【AIBASE】パスワード変更完了のお知らせ')
             ->view('mails.forgotPasswordComplete')
             ->with([
                 'data' => $this->mailData

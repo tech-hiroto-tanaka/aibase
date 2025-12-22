@@ -29,7 +29,7 @@ class ForgotPassword extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】パスワードリセット')
+        return $this->subject('【AIBASE】パスワードリセット')
             ->view('mails.forgotPassword')
             ->with([
                 'data' => $this->mailData['data']

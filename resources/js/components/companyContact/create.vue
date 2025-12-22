@@ -32,7 +32,7 @@
                                 name="company_name"
                                 v-model="model.company_name"
                                 rules="required|max:255"
-                                placeholder="例）株式会社ATSUMARE"
+                                placeholder="例）株式会社AIBASE"
                                 class="form-control"
                             />
                             <ErrorMessage class="error" name="company_name" />

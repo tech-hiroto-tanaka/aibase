@@ -21,7 +21,7 @@ class ForgotPasswordController extends BaseController
     {
         $email = Session::get('email') ?? '';
         return view('user.forgotPassword.index', [
-            'title' => '【ATSUMARE】パスワードリセット',
+            'title' => '【AIBASE】パスワードリセット',
             'email' => $email
         ]);
     }

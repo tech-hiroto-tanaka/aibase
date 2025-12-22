@@ -7,11 +7,11 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
-        <title>【ATSUMARE】あなたにあった案件・求人が見つかる！繋がる！ITエンジニア人材のための案件・求人サイト！{{isset($title) ? (' | ' . $title) : ''}}</title>
-        <meta name="keywords" content="ATSUMARE / エンジニア / IT / 人材 / 案件 / 求人 /  フリーランス / フルリモート / 高額">
-        <meta name="description" content="フルリモート案件！継続安定！スキルアップ！高額案件！フリーランスのIT人材のための案件・求人サイト「ATSUMARE」をぜひご活用ください。案件情報を多数掲載中！契約・税務面も含め充実のサポート体制を実現！">
-        <meta property="og:title" content="【ATSUMARE】あなたにあった案件・求人が見つかる！繋がる！ITエンジニア人材のための案件・求人サイト！" />
-        <meta property="og:description" content="フルリモート案件！継続安定！スキルアップ！高額案件！フリーランスのIT人材のための案件・求人サイト「ATSUMARE」をぜひご活用ください。案件情報を多数掲載中！契約・税務面も含め充実のサポート体制を実現！" />
+        <title>【AIBASE】あなたにあった案件・求人が見つかる！繋がる！ITエンジニア人材のための案件・求人サイト！{{isset($title) ? (' | ' . $title) : ''}}</title>
+        <meta name="keywords" content="AIBASE / エンジニア / IT / 人材 / 案件 / 求人 /  フリーランス / フルリモート / 高額">
+        <meta name="description" content="フルリモート案件！継続安定！スキルアップ！高額案件！フリーランスのIT人材のための案件・求人サイト「AIBASE」をぜひご活用ください。案件情報を多数掲載中！契約・税務面も含め充実のサポート体制を実現！">
+        <meta property="og:title" content="【AIBASE】あなたにあった案件・求人が見つかる！繋がる！ITエンジニア人材のための案件・求人サイト！" />
+        <meta property="og:description" content="フルリモート案件！継続安定！スキルアップ！高額案件！フリーランスのIT人材のための案件・求人サイト「AIBASE」をぜひご活用ください。案件情報を多数掲載中！契約・税務面も含め充実のサポート体制を実現！" />
         <meta property="og:image" content="作成中" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico">

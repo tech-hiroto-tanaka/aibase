@@ -1,7 +1,7 @@
 {{ $data['company_name'] }}<br>
 {{ $data['contact_hira_first_name'] }} {{ $data['contact_hira_last_name'] }} 様<br>
 <br>
-ATSUMAREエントリー担当です。<br>
+AIBASEエントリー担当です。<br>
 この度は、お申し込みいただき、誠にありがとうございます。<br>
 <br>
 以下に今回お申し込みいただいた内容を記載致します。<br>

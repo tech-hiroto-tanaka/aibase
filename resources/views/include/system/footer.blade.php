@@ -1,3 +1,3 @@
 <footer class="footer">
-    Copyright © {{ now()->year }} ATSUMARE All Rights Reserved.
+    Copyright © {{ now()->year }} AIBASE All Rights Reserved.
 </footer>

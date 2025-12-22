@@ -29,7 +29,7 @@ class UserContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】お問い合わせいただきありがとうございます。')
+        return $this->subject('【AIBASE】お問い合わせいただきありがとうございます。')
             ->view('mails.userContact')
             ->with([
                 'data' => $this->mailData

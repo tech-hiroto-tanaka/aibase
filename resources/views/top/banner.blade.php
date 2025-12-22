@@ -1,7 +1,7 @@
 <div class="top-banner" style="background-image: url({{ asset('images/top-banner-bg.png') }})">
     <div class="top-banner-overlay"></div>
     <div class="top-banner-content">
-        <div class="text-white">ITフリーランスエンジニアの案件・求人はATSUMARE</div>
+        <div class="text-white">ITフリーランスエンジニアの案件・求人はAIBASE</div>
         <div class="top-banner-content-text mb-2 mb-md-4">
             仕事がすぐ見つかる
         </div>

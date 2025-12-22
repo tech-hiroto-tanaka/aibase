@@ -11,7 +11,7 @@ class ForgotPasswordCompleteController extends BaseController
     public function index()
     {
         return view('user.forgotPasswordComplete.index', [
-            'title' => '【ATSUMARE】パスワード変更完了のお知らせ',
+            'title' => '【AIBASE】パスワード変更完了のお知らせ',
             'loginUrl' => route('login.index')
         ]);
     }

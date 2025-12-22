@@ -29,7 +29,7 @@ class CompanyContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】お申し込みいただき、ありがとうございます')
+        return $this->subject('【AIBASE】お申し込みいただき、ありがとうございます')
             ->view('mails.companyContact')
             ->with([
                 'data' => $this->mailData

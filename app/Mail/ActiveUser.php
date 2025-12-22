@@ -29,7 +29,7 @@ class ActiveUser extends Mailable
      */
     public function build()
     {
-        return $this->subject('【ATSUMARE】仮登録完了と本登録のお願い')
+        return $this->subject('【AIBASE】仮登録完了と本登録のお願い')
             ->view('mails.activeUser')
             ->with([
                 'data' => $this->mailData
