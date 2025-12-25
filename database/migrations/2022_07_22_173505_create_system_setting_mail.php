@@ -27,6 +27,6 @@ class CreateSystemSettingMail extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('system_setting_mail');
+        Schema::dropIfExists('system_setting');
     }
 }

@@ -26,10 +26,15 @@ class RegisterController extends BaseController
      */
     public function index(Request $request)
     {
+        $requestData = $request->all();
+        if (empty($requestData)) {
+            $requestData = $request->old();
+        }
+
         return view('user.register.index', [
             'title' => 'カンタン新規会員登録',
             'message' => $request->message,
-            'request' => $request->all(),
+            'request' => $requestData,
             'areas' => $this->areas->getAll()->where('id', '!=', 1),
         ]);
     }

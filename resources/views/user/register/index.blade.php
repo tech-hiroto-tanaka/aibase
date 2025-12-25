@@ -21,6 +21,7 @@ if (isset($errors) && count($errors)) {
             'openTabPolicy' => route('privacy.index'),
             'desiredWorkType' => DesiredWorkType::parseArray(),
             'areas' => $areas,
+            'errors' => $errors->toArray(),
         ]) }}">
     </register>
 @endsection

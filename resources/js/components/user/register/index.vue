@@ -9,6 +9,7 @@
       <div class="row justify-content-center">
         <div class="col-md-7">
           <VeeForm
+            ref="form"
             as="div"
             v-slot="{ handleSubmit }"
             @invalid-submit="onInvalidSubmit"
@@ -617,7 +618,22 @@ export default {
       baseUrl: Laravel.baseUrl,
     };
   },
-  mounted() {},
+  mounted() {
+    if (this.data.request && Object.keys(this.data.request).length > 0) {
+      this.model = { ...this.model, ...this.data.request };
+      if (this.model.birthday) {
+        const parts = this.model.birthday.split("/");
+        if (parts.length === 3) {
+          this.model.year = parts[0];
+          this.model.month = parts[1];
+          this.model.day = parts[2];
+        }
+      }
+    }
+    if (this.data.errors && Object.keys(this.data.errors).length > 0) {
+      this.$refs.form.setErrors(this.data.errors);
+    }
+  },
   props: ["data"],
   components: {
     Loader,
