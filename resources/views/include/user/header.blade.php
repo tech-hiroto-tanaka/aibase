@@ -7,7 +7,7 @@
             <div class="col-6 col-sm-12 col-md-4 col-xl-6 header-left">
                 <div class="logo">
                     <a href="{{ route('top.index') }}">
-                        <img src="{{ url('/assets/img/user/main_logo.png') }}" alt="logo" width="187">
+                        <img src="{{ url('/assets/img/user/logo_aibase.png') }}" alt="logo" width="187">
                     </a>
                 </div>
             </div>
